@@ -5,9 +5,13 @@ html, body, h1 {
 
 body {
     text-align: center;
-    background-color: #FFFFFF;
     margin: 0;
     padding: 100px 30px 30px 30px;
+}
+
+body, #welcomePage, .buttonSection
+{
+    background-color: #f2efef;
 }
 
 main {
@@ -47,10 +51,6 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-}
-
-.dark-section {
-    border: 2px solid #000709;
 }
 
 .light-section {
