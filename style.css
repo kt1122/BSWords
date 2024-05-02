@@ -20,6 +20,7 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 #intro {
@@ -29,13 +30,9 @@ main {
 }
 
 #home_img {
-    width: 100%;
-    max-width: 270px;
+    width: 40px;
     height: auto;
-
-    display: block;
-    margin: 0px;
-    padding: 15px 10px;
+    margin-left: auto;
 }
 
 a:link {
@@ -109,12 +106,19 @@ a:hover {
     margin-right: 70px;
 }
 
+#logo
+{
+    display: flex;
+    align-items: center;
+}
+
 #logoB {
     color: #000000;
 }
 
 #logoS {
-    color: #006E90
+    color: #006E90;
+    margin-right: auto;
 }
 
 #explore {
@@ -167,3 +171,46 @@ a:hover {
 Color palette
 https://coolors.co/006e90-f18f01-adcad6-99c24d-41bbd9
 */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) 
+{
+    #welcomeTitle
+    {
+        font-size: 20px;
+        margin-top: -50px;
+    }
+
+    #logo
+    {
+        font-size: 15px;
+    }
+
+    #home_img
+    {
+        width: 40px;
+        height: auto;
+        margin-left: 200px;
+    }
+
+    #subtitle
+    {
+        margin-right: 6px;
+    }
+
+    .intro
+    {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    #welcomeTitle
+    {
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    #gameSelect
+    {
+        font-size: 17px;
+    }
+}
