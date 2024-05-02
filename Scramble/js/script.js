@@ -56,8 +56,7 @@ const initGame = () => {
   // Determine word class based on length and number of repeating characters
   let wordClass;
   let wordLength = correctWord.length;
-  let repeatingCharacters = /([a-zA-Z]).*?\1/.test(correctWord);
-  if (wordLength <= 4 || repeatingCharacters) {
+  if (wordLength <= 4) {
     wordClass = "common";
   } else if (wordLength <= 6) {
     wordClass = "rare";
