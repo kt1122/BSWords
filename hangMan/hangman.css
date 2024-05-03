@@ -224,12 +224,14 @@ https://hangmanwordgame.com/?fca=1&success=0#/
     }
 
     .letterBtn {
+        display: flex; /* Use flexbox */
+        justify-content: center; /* Center horizontally */
+        align-items: center; 
         margin: 5px;
         width: 25px;
         height: 25px;
         font-size: 13px;
         line-height: 25px;
-        text-align: center;
     }
 
     #guessing-contanier, #button-container {
