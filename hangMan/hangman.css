@@ -252,9 +252,9 @@ https://hangmanwordgame.com/?fca=1&success=0#/
         right: 0%;
     }
 
-    #hanging-man
+    #hanging-tree, #hanging-man
     {
-        margin-top: 30px;
-        margin-left: 150px;
+        margin-left: 18%;
+        margin-bottom: 50%
     }
 }

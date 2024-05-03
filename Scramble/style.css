@@ -17,7 +17,7 @@ body {
 .container {
   width: 440px;
   border-radius: 7px;
-  background: #FFFDF7;
+  background: #f6edd4;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
 .container h2 {
