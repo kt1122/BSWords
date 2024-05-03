@@ -127,7 +127,8 @@ background-color: #c0c2c4;
     height: 40px;
   }
 
-  .key {
+  .key 
+  {
     font-size: 15px;
     padding: 4px;
   }
