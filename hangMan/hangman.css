@@ -229,6 +229,7 @@ https://hangmanwordgame.com/?fca=1&success=0#/
         height: 25px;
         font-size: 13px;
         line-height: 25px;
+        text-align: center;
     }
 
     #guessing-contanier, #button-container {
